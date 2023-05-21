@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500;700;800&family=Karla:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Poppins:wght@200;400;600&family=Rubik:wght@400;500;700&family=Source+Serif+Pro:wght@400;700;900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color:hsl(0, 0%, 98%);
+    font-family: Poppins;
+}
+
+#container {
+    width: 1000px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading-1 {
+    margin: 10px 10px 0px 10px;
+    font-weight: 200;
+    font-size: 26px;
+    color: hsl(234, 12%, 34%);
+    margin: 8px auto 0px auto;
+}
+
+#heading-2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size:26px;
+    letter-spacing: 1px;
+    margin: 0px auto 0px auto;
+}
+
+#description {
+    color: hsl(229, 6%, 66%);
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+    font-size: 15px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+#cards-container {
+    margin-top: 25px;
+    width: 1000px;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 300px;
+    height: 190px;
+    box-shadow: 0.5px 0.5px 10px rgba(128, 128, 128, 0.622);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.position {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.middle-cards {
+    width: 300px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    align-self: flex-end;
+    padding-right: 25px;
+    margin-top: 20px;
+}
+
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    padding-right: 20px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+} 
+
+.calculator img {
+    padding-right: 10px;
+}
+
+.role {
+    color: hsla(229, 6%, 66%, 0.805);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 1023px){
+    body {
+        min-height: 1150px;
+    }
+    
+    #container {
+        width: 320px;
+        height: 1050px;
+    }
+    
+    #heading-1 {
+        font-weight: 200;
+        font-size: 20px;
+    }
+    
+    #heading-2 {
+        font-size: 20px;
+    }
+    
+    #description {
+        width: 300px;
+    }
+
+    
+    #cards-container {
+        margin-top: 25px;
+        width: 300px;
+        height: 880px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 35px;
+    }
+    
+    .card {
+        width: 300px;
+        height: 190px;
+    }
+    
+    .position {
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+    
+    .middle-cards {
+        width: 300px;
+        height: 420px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    
+    .card img {
+        width: 50px;
+        height: 50px;
+        align-self: flex-end;
+        padding-right: 25px;
+        margin-top: 20px;
+    }
+
+    .calculator img {
+        padding-right: 10px;
+    }
+    
+    .role {
+        color: hsla(229, 6%, 66%, 0.805);
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+}
