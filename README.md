@@ -18,8 +18,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ![Screenshot of the webpage](./images/Web%20capture_21-5-2023_201134_127.0.0.1.jpeg)
 
 ### Links
-- [Github repository](#)
-- [Deployed site](#)
+- [Github repository](https://github.com/Emmanuel-Afrifa/four-card-feature-section)
+- [Deployed site](https://four-card-feature-frontend-sol.netlify.app/)
 
 ## Process
 ### Tools Used
